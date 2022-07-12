@@ -1,0 +1,119 @@
+/*---------- CARD ----------*/
+.card {
+  background-color: #fff;
+  width: Min (80%, 73rem);
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 4rem 4rem -1rem rgba(201, 213, 225, 0.503415);
+}
+
+.card-img {
+  max-width: 28.5rem;
+
+  img {
+    width: 100%;
+  }
+}
+
+.text-container {
+  padding: 3.2rem 4rem;
+  max-width: 36.5rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: $fw-bold;
+    margin-bottom: 1.2rem;
+  }
+
+  p {
+    color: $color-primary-light;
+  }
+}
+
+.author-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  .author {
+    display: flex;
+    gap: 1.6rem;
+  }
+
+  .author-img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100px;
+  }
+
+  .author-info {
+    .author-name {
+      color: $color-primary;
+    }
+
+    .date {
+      color: $color-primary-light-2;
+    }
+  }
+
+  .share-icon-box {
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: $color-primary-light-3;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .share-icon {
+      width: 50%;
+    }
+  }
+
+  .share-container {
+    background-color: $color-primary;
+    display: flex;
+    height: 6.4rem;
+    gap: 2rem;
+    padding: 1.8rem 3.6rem;
+    position: absolute;
+    top: -250%;
+    // clip-path: polygon(
+    //   0% 0%,
+    //   100% 0%,
+    //   100% 75%,
+    //   55% 75%,
+    //   50% 100%,
+    //   45% 75%,
+    //   0% 75%
+    // );
+
+    .share-text {
+      color: $color-primary-light-2;
+      text-transform: uppercase;
+    }
+
+    .icon {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+
+/*---------- FOOTER ----------*/
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+  color: $color-primary-light-2;
+  margin-top: 3rem;
+
+  a {
+    color: $color-primary-light-2;
+    text-decoration: none;
+    font-weight: $fw-bold;
+  }
+  a:hover {
+    color: $color-primary;
+  }
+}
