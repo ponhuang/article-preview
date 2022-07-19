@@ -27,7 +27,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop
+![](screenshot/desktop.png)
+
+Desktop active state
+![](screenshot/desktop-active.png)
+
+Mobile
+![](screenshot/mobile.png)
+
+Mobile active state
+![](screenshot/mobile-active.png)
 
 ### Links
 
@@ -47,33 +57,33 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Make message box in CSS
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.share-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  width: 0;
+  height: 0;
+  margin-inline: auto;
+  border-top: 15px solid $color-primary;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
 ### Continued development
+
+Making the share container better.
 
 ### Useful resources
 
 - [Message box with CSS arrow](https://codepen.io/ompmega/pen/qByYQd) -
 
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Message Box with Arrow Icon](https://codeconvey.com/css-message-box-with-arrow/)
 
 ## Author
 
