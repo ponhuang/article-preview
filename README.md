@@ -52,8 +52,7 @@ Mobile active state
 - NPM node-sass
 - SCSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
+- Desktop-first workflow
 
 ### What I learned
 
